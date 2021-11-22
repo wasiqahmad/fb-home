@@ -1,0 +1,296 @@
+body{
+    background-color: rgb(241, 241, 252);
+}
+.header{
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    z-index: 10;
+    margin-top: -.8%;
+box-shadow: .1rem .1rem .1rem rgb(233, 225, 225);
+
+}
+.icon{
+    color: #1877F2;
+    font-size: 2.5rem;
+    margin-top: .2rem;
+    position: relative;
+    top: .4rem;
+    margin-left: .5rem;
+    cursor: pointer;
+    }
+    .search{
+    border-radius: 5rem;
+    background-color: rgb(241, 241, 252);
+    border: hidden;
+    position: relative;
+    top: -.1rem;
+    padding: .8rem;
+    margin: .4rem;
+    font-size: 96%;
+    color: rgb(161, 161, 161);
+    }
+    .search-bar{
+        display: inline;
+ cursor: pointer;
+    }
+    .market{
+        color: #5089f3;
+    }
+    .header-icon{
+        margin-left: 11.9rem;
+        cursor: pointer;
+    }
+    .icons{
+        font-size: 1.5rem;
+    margin-left: 5.8rem;
+    cursor: pointer;
+}
+    .header-icons{
+    font-size: 1.5rem;
+    margin-left: 8rem;
+    cursor: pointer;
+    }
+    .group-icon{
+        width: 7rem;
+        height: .15rem;
+        background-color: #5089f3;
+position: absolute;
+color: #5089f3;
+border: hidden;
+left: 44.2%;
+margin-top: -.15rem;
+}
+    .owner-name{
+        display: inline;
+        font-size: 70%;
+        margin-right: .5rem;
+    }
+    .header-pic{
+        width: 2.2%;
+        border-radius: 50%;
+    position: relative;
+    top: .7rem;
+    }
+    .header-2-icon{
+    border-radius: 50%;
+    background-color: rgb(241, 241, 252);
+    padding: .55rem;
+    font-size: 80%;
+    cursor: pointer;
+    }
+    .header-2-icon-last{
+    border-radius: 100%;
+        background-color: rgb(241, 241, 252);
+        padding: .55rem .7rem;
+        padding-top: .3rem;
+        font-size: 85%;
+        }
+
+
+/* sidebar */
+
+.sidebar{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+    width: 24.5%;
+    padding-top: 5rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(46, 42, 42);
+padding-bottom: 7rem;
+/* font-size: 90%; */
+}
+.name{
+    margin-top: 15rem !important;
+    display: inline;
+    position: relative;
+    top: -1rem;
+    left: 1rem;
+}
+
+.sidebar-search{
+    border-radius: 5rem;
+    background-color: rgb(241, 241, 252);
+    border: hidden;
+    position: relative;
+    top: -.5rem;
+    padding: .5rem 7rem;
+    padding-left: 1.5rem;
+    margin: .5rem;
+    font-size: 90%;
+    color: rgb(80, 74, 74);
+    }
+    .setting{
+    margin-left: 9rem;
+    background-color: rgb(241, 241, 252);
+    padding: .5rem;
+    border-radius: 50%;
+    position: relative;
+    top: -1rem;
+    cursor: pointer;
+    }
+.my-pic-2{
+    margin-top: .6rem;
+    margin-bottom: .5rem;
+    margin-left: 1.1rem;
+    /* width: 8%; */
+    /* height: 50%; */
+    font-size: 140%;
+    border-radius: 50%;
+}
+.left-side-1{
+background-color: rgb(241, 241, 252);
+width: 95%;
+/* margin-top: .5rem; */
+margin-left: .4rem;
+cursor: pointer;
+}
+.left-side{
+    cursor: pointer;
+    margin-left: .4rem;
+}
+.left-side:hover{
+    cursor: pointer;
+background-color: rgb(241, 241, 252);
+width: 95%;
+/* margin-left: .4rem; */
+}
+.friend{
+color:  #4d96f5;
+cursor: pointer;
+}
+.group{
+    background-color: #5089f3;
+    color: #fff;
+    font-size:100%;
+    height: 1rem;
+    padding: .4rem;
+    border-radius: 50%;
+    cursor: pointer;
+    /* margin-bottom: 0%; */
+
+}
+.name-2{
+    display: inline;
+    position: relative;
+    top: -.2rem;
+    left: .4rem;
+}
+.name-3{
+width: 86%;
+position: relative;
+top: -.2rem;
+left: .5rem;
+color: rgb(10, 168, 241);
+text-align: center;
+padding: .5rem;
+background-color: rgb(220, 248, 240);
+cursor: pointer;
+margin-bottom: 0%;
+
+}
+.name-3:hover{
+background-color: rgb(208, 235, 227);
+}
+.line{
+width: 92%;
+color: rgb(255, 255, 255);
+}
+.group-line{
+/* font-weight: 600; */
+margin-left: .7rem;
+cursor: pointer;
+/* color: black; */
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/* font-weight: 700; */
+font-size: 110%;
+}
+.filters{
+    color: #5089f3;
+    padding: .2rem 0;
+    border-bottom: 1px solid rgb(209, 203, 203);
+padding-bottom: 1rem;
+width: 95%;
+}
+
+.filters:hover{
+    background-color: rgb(241, 241, 252);
+}
+.card-line{
+margin-top: 28.5rem;
+margin-bottom: 2rem;
+    width: 95%;
+margin-left: .7rem;
+}
+.categories{
+    font-size: 110%;
+    margin-left: .7rem;
+margin-bottom: 0%;
+}
+.transport{
+    padding: .4rem 0;
+}
+.Vehicle{
+padding: .4rem;
+background-color: rgb(226, 226, 248);
+border-radius: 50%;
+margin-left: .5rem;
+}
+
+/* Fb Cards */
+.Fb-cards{
+    font-size: 110%;
+    padding-top: 4rem;
+    margin-left: 27%;
+}
+.post-date{
+    margin-left: .7rem;
+cursor: pointer;
+}
+.Location-faisalabad{
+position: absolute;
+top: 4.8rem;
+left: 85%;
+color: #5089f3;
+cursor: pointer;
+}
+.Location-faisalabad:hover{
+border-bottom: 1px solid #5089f3;
+}
+.see-all{
+position: absolute;
+top: 36.8rem;
+left: 90%;
+color: #5089f3;
+cursor: pointer;
+}
+.see-all:hover{
+border-bottom: 1px solid #5089f3;
+}
+    
+.card{
+    cursor: pointer;
+    font-size: 100%;
+    float: left;
+    margin-left: .7rem;
+
+}
+.card-pic{
+    width: 19rem;
+    border-radius: .7rem;
+}
+.type{
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-bottom: 0%;
+}
+.quantity{
+    margin-top: 0%;
+ margin-bottom: 0%;
+    color: rgb(59, 58, 58);
+}
+.locate{
+    margin-top: 0%;
+    color: rgb(131, 124, 124);
+
+}
