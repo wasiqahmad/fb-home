@@ -23,9 +23,9 @@ font-size: 60%;
  }
  @media(max-width:31.25em){    
     html{
-    font-size: 80%;
+    font-size: 88%;
     }
-     }
+    }
 /* @media(max-width:30em){    
 html{
 font-size: 45%;
@@ -68,7 +68,20 @@ font-size: 45%;
     width: 100% !important;
     padding-bottom: .5rem; 
     }
-    }        
+    }
+    @media(max-width:31.25em){    
+    .header{
+    position: fixed;
+    top: -.001rem;
+    background-color: rgb(255, 255, 255);
+    z-index: 10;
+    margin-top: -.8%;
+    box-shadow: .1rem .1rem .1rem rgb(233, 225, 225);
+    width: 100% !important;
+    padding-bottom: .5rem;
+    margin-left: -.5rem; 
+    }
+    }           
     .icon{
     color: #1877F2;
     font-size: 2.5rem;
@@ -199,59 +212,83 @@ font-size: 45%;
         cursor: pointer;
         display: inline;
         }
-        @media(max-width:43.75em){    
+        @media(max-width:54.75em){    
         .header-icons{
         font-size: 1.5rem;
-        margin-left: 42%;
+        margin-left: 14%;
         cursor: pointer;
         display: inline;
         }
         }
-        @media(max-width:38.75em){    
+        @media(max-width:46.875em){    
+        .header-icons{
+        font-size: 1.5rem;
+        margin-left: 18%;
+        cursor: pointer;
+        display: inline;
+        }
+        }
+        @media(max-width:43.75em){    
+        .header-icons{
+        font-size: 1.5rem;
+        margin-left: 52%;
+        cursor: pointer;
+        display: inline;
+        }
+        }
+        /* @media(max-width:38.75em){    
         .header-icons{
         font-size: 1.5rem;
         margin-left: 37%;
         cursor: pointer;
         display: inline;
         }
-        }
-        @media(max-width:35.625em){    
+        } */
+        /* @media(max-width:35.625em){    
         .header-icons{
         font-size: 1.5rem;
         margin-left: 32%;
         cursor: pointer;
         display: inline;
         }
-        }
-        @media(max-width:32.5em){    
+        } */
+        /* @media(max-width:32.5em){    
         .header-icons{
         font-size: 1.5rem;
         margin-left: 26%;
         cursor: pointer;
         display: inline;
         }
+        } */
+        @media(max-width:31.25em){    
+        .header-icons{
+        font-size: 1.5rem;
+        margin-left: 31%;
+        cursor: pointer;
+        display: inline;
         }
-        @media(max-width:29.75em){    
+        }
+        /* @media(max-width:29.75em){    
         .header-icons{
         font-size: 1.5rem;
         margin-left: 20%;
         cursor: pointer;
         display: inline;
         }
-        }
+        } */
         @media(max-width:27.1875em){    
         .header-icons{
-        margin-left: 13%;
+        margin-left: 22%;
         }
         }
         @media(max-width:24.6875em){    
         .header-icons{
-        margin-left: 5%;
+        margin-left:18%;
         }
         }
         @media(max-width:22.5em){    
         .header-icons{
-        margin-left: -3.2%;
+        margin-left: 9%;
         }
         }
         .group-icon{
@@ -305,19 +342,20 @@ font-size: 45%;
         left: 51.5%;
         }
         }
-        @media(max-width:55em){    
+        @media(max-width:54.75em){    
         .group-icon{
-        left: 49%;
+        left: 47.5%;
         }
         }
         @media(max-width:50em){    
         .group-icon{
-        left: 46%;
+        left: 43.5%;
         }
         }
-        @media(max-width:46.25em){    
+        @media(max-width:46.75em){    
         .group-icon{
-        left: 47.7%;
+            height: .2rem;
+        left: 42.7%;
         }
         }
         @media(max-width:43.75em){    
@@ -597,6 +635,33 @@ color: rgb(107, 102, 102);
     /* margin-left: 10%; */
     }
     }
+    @media(max-width:26.25em){    
+    .center-side{
+    width: 101%;
+    margin-left:3%;
+    font-size: 100%;
+    /* margin-left: 10%; */
+    }
+    }
+    @media(max-width:23.5em){    
+    .center-side{
+    width: 101%;
+    margin-left:3.5%;
+    }
+    }
+    @media(max-width:23.5em){    
+    .center-side{
+    width: 101%;
+    margin-left:3.5%;
+    }
+    }
+    @media(max-width:21.5em){    
+    .center-side{
+    width: 101%;
+    margin-left:4%;
+    }
+    }
+        
     /* @media(max-width:28.75em){    
     .center-side{
     width: 31rem;
@@ -710,6 +775,34 @@ margin-left: 17%;
 font-size: 105%;
 cursor: pointer;
 }
+@media(max-width:27.5em){        
+.feed-back{
+display: inline;
+color: rgb(80, 74, 74);
+margin-left: 14%;
+font-size: 105%;
+cursor: pointer;
+}
+}
+@media(max-width:23.5em){        
+.feed-back{
+display: inline;
+color: rgb(80, 74, 74);
+margin-left: 11%;
+font-size: 105%;
+cursor: pointer;
+}
+}
+@media(max-width:21.875em){        
+.feed-back{
+display: inline;
+color: rgb(80, 74, 74);
+margin-left:8%;
+font-size: 105%;
+cursor: pointer;
+}
+}
+    
 .feed-back-2{
  display: inline;
     color: rgb(80, 74, 74);
