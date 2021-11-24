@@ -869,6 +869,37 @@ font-weight: 700;
     color: rgb(107, 102, 102);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+@media(max-width:78.75em){    
+    .contact-name{
+        display: inline;
+        position: relative;
+        top: -.2rem;
+        left: 15%;
+        color: rgb(107, 102, 102);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+   }
+   @media(max-width:26.875em){    
+    .contact-name{
+    display: inline;
+    position: relative;
+    top: -.2rem;
+    left: 12%;
+    color: rgb(107, 102, 102);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    }
+    @media(max-width:23.4375em){    
+     .contact-name{
+     display: inline;
+     position: relative;
+     top: -.2rem;
+     left: 10%;
+     color: rgb(107, 102, 102);
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+     }
 .card{
 border: 1px solid rgb(201, 198, 198);
 width: 85%;
