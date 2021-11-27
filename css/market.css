@@ -397,6 +397,9 @@ color: rgb(161, 161, 161);
     font-size: 80%;
     cursor: pointer;
     }
+    .header-2-icon:hover,.header-2-icon-last:hover{
+    background-color: rgb(224, 224, 255);
+    }
     @media(max-width:68.75em){    
     .box-responsive{
     display: none;

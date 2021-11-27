@@ -401,6 +401,9 @@ font-size: 60%;
         font-size: 80%;
         cursor: pointer;
         }
+        .header-2-icon:hover,.header-2-icon-last:hover{
+        background-color: rgb(224, 224, 255);
+        }
         @media(max-width:68.75em){    
         .box-responsive{
         display: none;
@@ -780,7 +783,7 @@ cursor: pointer;
 .feed-back-2:hover,    
 .feed-back-3:active,
 .feed-back-3:hover {
-    color: blue;
+    color: #1877F2;
 }
 /* .feed-back:active{
     color: blue;

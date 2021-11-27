@@ -9,6 +9,11 @@ body{
 background-color: rgb(241, 241, 252);
 }
 
+@media(max-width:23.75em){       
+html{
+font-size: 95%;
+}
+    }
 /* Header */
 .header{
     position: fixed;
@@ -363,6 +368,9 @@ a{
     font-size: 80%;
     cursor: pointer;
     }
+    .header-2-icon:hover,.header-2-icon-last:hover{
+    background-color: rgb(224, 224, 255);
+    }
     @media(max-width:68.75em){    
     .box-responsive{
     display: none;
@@ -582,11 +590,6 @@ color: rgb(255, 94, 0);
     color: rgb(80, 74, 74);
     cursor: pointer;
 }
-@media(max-width:23em){       
-.like-name{
-    display: none;
-    }}
-
 .comments{
     display: block;
 float: right;
@@ -613,7 +616,7 @@ cursor: pointer;
 .feed-back-2:hover,    
 .feed-back-3:active,
 .feed-back-3:hover {
-    color: blue;
+    color: #1877F2;
 }
 @media(max-width:30em){    
 .feed-back{
