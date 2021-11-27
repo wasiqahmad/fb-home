@@ -26,16 +26,6 @@ font-size: 60%;
     font-size: 88%;
     }
     }
-/* @media(max-width:30em){    
-html{
-font-size: 45%;
-}
-} */
-/* @media(max-width:22.5em){    
-    html{
-    font-size: 40%;
-    }
-    } */
 /* Header */
  
     .header{
@@ -82,6 +72,9 @@ font-size: 45%;
     margin-left: -.5rem; 
     }
     }           
+    a{
+        color: black;
+    }
     .icon{
     color: #1877F2;
     font-size: 2.5rem;
@@ -122,46 +115,52 @@ font-size: 45%;
         cursor: pointer;
         }
         .header-icon{ 
-        margin-left: 11.9rem;
+        margin-left: 17%;
         cursor: pointer;
        }
         @media(max-width:81.25em){    
         .header-icon{
-        margin-left: 14%;
+        margin-left: 16.7%;
         cursor: pointer;
         }
         }
         @media(max-width:78.125em){    
         .header-icon{
-        margin-left: 13.5%;
+        margin-left: 16.4%;
         }
         }
         @media(max-width:73.125em){    
         .header-icon{
-        margin-left: 12.7%;
+        margin-left: 15.8%;
         }
         }
         @media(max-width:62.5em){    
         .header-icon{
-        margin-left: 5.7%;
+        margin-left: 8.7%;
         }
         }
         .icons{
         font-size: 1.5rem;
-        margin-left: 7%;
+        /* margin-left: 7%; */
+        margin-left: 3.2%;
+        padding: .9% 2%;
         cursor: pointer;
+        }
+        .icons:hover{
+        background-color: rgb(241, 241, 255);
+        border-radius: .5rem;
         }
         @media(max-width:55em){    
         .icons{
         font-size: 1.5rem;
-        margin-left: 6%;
+        margin-left: 2.4%;
         cursor: pointer;
         }
         }
         @media(max-width:50em){    
         .icons{
         font-size: 1.5rem;
-        margin-left: 4.7%;
+        margin-left: 1%;
         cursor: pointer;
         }
         }
@@ -283,12 +282,12 @@ font-size: 45%;
         }
         @media(max-width:24.6875em){    
         .header-icons{
-        margin-left:18%;
+        margin-left:15%;
         }
         }
         @media(max-width:22.5em){    
         .header-icons{
-        margin-left: 9%;
+        margin-left: 6%;
         }
         }
         .group-icon{
@@ -524,7 +523,7 @@ color:  #4d96f5;
 cursor: pointer;
 }
 .group{
-    background-color: #5089f3;
+    background-color: #5089f3 !important;
     color: #fff;
     font-size:100%;
     height: 1rem;
@@ -775,6 +774,17 @@ margin-left: 17%;
 font-size: 105%;
 cursor: pointer;
 }
+.feed-back:active,
+.feed-back:hover,
+.feed-back-2:active,
+.feed-back-2:hover,    
+.feed-back-3:active,
+.feed-back-3:hover {
+    color: blue;
+}
+/* .feed-back:active{
+    color: blue;
+} */
 @media(max-width:27.5em){        
 .feed-back{
 display: inline;

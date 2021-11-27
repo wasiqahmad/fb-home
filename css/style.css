@@ -39,9 +39,12 @@ margin-top: -.8%;
 box-shadow: .1rem .1rem .1rem rgb(233, 225, 225);
 width: 100% !important;
 padding-bottom: .5rem; 
+margin-left: -.5rem;
 }
 }
-        
+a{
+    color: black;
+}        
 .icon{
     color: #1877F2;
     font-size: 2.5rem;
@@ -109,46 +112,60 @@ padding-bottom: .5rem;
     cursor: pointer;
     }
     .header-icon{
-    margin-left: .9rem;
+    margin-left: 3%;
     cursor: pointer;
     }
     @media(max-width:81.25em){    
     .header-icon{
-    margin-left: 14%;
+    margin-left: 16%;
     cursor: pointer;
     }
     }
     @media(max-width:78.125em){    
     .header-icon{
-    margin-left: 13.5%;
+    margin-left: 15.5%;
     }
     }
     @media(max-width:73.125em){    
     .header-icon{
-    margin-left: 12.7%;
+    margin-left: 14.7%;
     }
     }
     @media(max-width:62.5em){    
     .header-icon{
-    margin-left: 5.7%;
+    margin-left: 7.7%;
     }
     }
+    /* @media(max-width:55em){    
+    .header-icon{
+    margin-left: 2.7%;
+    }
+    } */
     .icons{
     font-size: 1.5rem;
-    margin-left: 7%;
+    /* margin-left: 7%; */
+    margin-left: 3.2%;
+    padding: .9% 2%;
     cursor: pointer;
+    border-radius: .5rem;
     }
+    .icons:hover{
+    background-color: rgb(241, 241, 255);
+    font-size: 1.5rem;
+    position: relative;
+    cursor: pointer;
+        }
     @media(max-width:55em){    
     .icons{
     font-size: 1.5rem;
-    margin-left: 6%;
+    margin-left: 2.2%;
     cursor: pointer;
     }
     }
     @media(max-width:50em){    
     .icons{
     font-size: 1.5rem;
-    margin-left: 4.7%;
+    margin-left: 1%;
     cursor: pointer;
     }
     }
@@ -195,9 +212,25 @@ padding-bottom: .5rem;
     }
     .header-icons{
     font-size: 1.5rem;
-    margin-left: 9%;
+    margin-left: 7%;
     cursor: pointer;
     display: inline;
+    }
+    @media(max-width:81.25em){    
+    .header-icons{
+    font-size: 1.5rem;
+    margin-left: 10%;
+    cursor: pointer;
+    display: inline;
+    }
+    }
+    @media(max-width:68.125em){    
+    .header-icons{
+    font-size: 1.5rem;
+    margin-left: 7%;
+    cursor: pointer;
+    display: inline;
+    }
     }
     @media(max-width:43.75em){    
     .header-icons{
@@ -573,6 +606,14 @@ color: rgb(80, 74, 74);
 margin-left: 17%;
 font-size: 105%;
 cursor: pointer;
+}
+.feed-back:active,
+.feed-back:hover,
+.feed-back-2:active,
+.feed-back-2:hover,    
+.feed-back-3:active,
+.feed-back-3:hover {
+    color: blue;
 }
 @media(max-width:30em){    
 .feed-back{
