@@ -475,7 +475,80 @@ color: rgb(255, 94, 0);
 }
 
 /* Center side */
-
+.upload-items{
+/* margin-top: 35%; */
+background-color: #fff;
+position: relative;
+top:2rem;
+margin-bottom: 5rem;
+border-radius: .5rem;
+height: 9rem;
+}
+.top-id-pic{
+width: 2.8rem;
+border-radius: 5rem;
+float: left;
+margin-top: .9rem;
+margin-left: 1rem;
+cursor: pointer;
+}
+.id-search{
+    border-radius: 5rem;
+    background-color: rgb(241, 241, 252);
+    border: hidden;
+    position: relative;
+    top: -.1rem;
+    padding: .7rem;
+    margin: .4rem;
+    font-size: 96%;
+    color: rgb(161, 161, 161);
+    width: 80%;
+    margin-top: 1rem;
+    font-size: 115% !important;
+    cursor: pointer;
+}
+.id-search:hover{
+background-color: rgb(230, 230, 251);
+}
+.top-line{
+    width: 90%;
+    margin-bottom: 0%;
+}
+.live-vedio{
+    float: left;
+/* background-color: #fff; */
+margin-left: 2%;
+color: rgb(100, 98, 98);
+padding: 2% 4%;
+cursor: pointer;
+border-radius: .5rem;
+}
+.live-vedio:hover{
+ background-color: rgb(241, 241, 252);
+}
+.vedio-icon{
+    font-size: 1.5rem;
+    /* width: 1.9rem; */
+color: #F35369;
+margin-right: .5rem;
+position: relative;
+top:.2rem;
+}
+.Photo-icon{
+color: #00A400;
+font-size: 1.5rem;
+/* transform: rotate(90deg); */
+margin-right: .5rem;
+position: relative;
+top:.2rem;
+}
+.mood{
+    font-size: 1.5rem;
+    color: #F5C33B;
+    margin-right: .5rem;
+    position: relative;
+    top:.2rem;
+}
 .center-side{
     width: 39%;
     margin: auto;
@@ -483,7 +556,11 @@ color: rgb(255, 94, 0);
     top: 3rem;
     /* left: -.2rem; */
 
+    /* background-color: #fff; */
+}
+.all-pics-post{
     background-color: #fff;
+border-radius: .5rem;
 }
 @media(max-width:68.75em){    
     .center-side{
@@ -517,6 +594,9 @@ color: rgb(255, 94, 0);
     top: 3rem;
     font-size: 97%;    
 }
+}
+.fb-posts-2{
+    border-radius: 5.5rem !important;
 }
 .fb-dp{
     width: 8%;
