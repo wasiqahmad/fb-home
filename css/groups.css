@@ -11,12 +11,12 @@ html{
 font-size: 80%;
 }
  }
- @media(max-width:40.625em){    
+ @media(max-width:41.375em){    
 html{
 font-size: 70%;
 }
  }
- @media(max-width:35em){    
+ @media(max-width:36.25em){    
 html{
 font-size: 60%;
 }
@@ -29,47 +29,59 @@ font-size: 60%;
 /* Header */
  
     .header{
-        position: fixed;
-        background-color: rgb(255, 255, 255);
-        z-index: 10;
-        margin-top: -.8%;
-        box-shadow: .1rem .1rem .1rem rgb(233, 225, 225);
-        width: 100% !important;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    z-index: 10;
+    margin-top: -.8%;
+    box-shadow: .1rem .1rem .1rem rgb(233, 225, 225);
+    width: 100% !important;
+    margin-top: 0rem;
     }
     @media(max-width:81.25em){    
         .header{
         position: fixed;
         background-color: rgb(255, 255, 255);
         z-index: 10;
-        margin-top: -.8%;
+        /* margin-top: -.8%; */
         box-shadow: .1rem .1rem .1rem rgb(233, 225, 225);
         width: 100% !important;
-    padding-bottom: .5rem; 
+    /* padding-bottom: .5rem;  */
+    }
+    }
+    @media(max-width:78.75em){    
+        .header{
+        position: fixed;
+        background-color: rgb(255, 255, 255);
+        z-index: 10;
+        margin-top: -5rem !important;
+        box-shadow: .1rem .1rem .1rem rgb(233, 225, 225);
+        width: 100% !important;
+    /* padding-bottom: .5rem;  */
     }
     }
     @media(max-width:58.75em){    
     .header{
     position: fixed;
-    top: -.001rem;
+    /* top: -.001rem; */
     background-color: rgb(255, 255, 255);
-    z-index: 10;
-    margin-top: -.8%;
+    /* z-index: 10; */
+    margin-top: -5rem !important;
     box-shadow: .1rem .1rem .1rem rgb(233, 225, 225);
     width: 100% !important;
-    padding-bottom: .5rem; 
+    /* padding-bottom: .5rem;  */
     }
     }
     @media(max-width:31.25em){    
     .header{
     position: fixed;
-    top: -.001rem;
+    /* top: -.001rem; */
     background-color: rgb(255, 255, 255);
     z-index: 10;
     margin-top: -.8%;
     box-shadow: .1rem .1rem .1rem rgb(233, 225, 225);
     width: 100% !important;
     padding-bottom: .5rem;
-    margin-left: -.5rem; 
+    /* margin-left: -.5rem;  */
     }
     }           
     a{
@@ -134,7 +146,7 @@ font-size: 60%;
         margin-left: 15.8%;
         }
         }
-        @media(max-width:62.5em){    
+        @media(max-width:62.75em){    
         .header-icon{
         margin-left: 8.7%;
         }
@@ -235,30 +247,6 @@ font-size: 60%;
         display: inline;
         }
         }
-        /* @media(max-width:38.75em){    
-        .header-icons{
-        font-size: 1.5rem;
-        margin-left: 37%;
-        cursor: pointer;
-        display: inline;
-        }
-        } */
-        /* @media(max-width:35.625em){    
-        .header-icons{
-        font-size: 1.5rem;
-        margin-left: 32%;
-        cursor: pointer;
-        display: inline;
-        }
-        } */
-        /* @media(max-width:32.5em){    
-        .header-icons{
-        font-size: 1.5rem;
-        margin-left: 26%;
-        cursor: pointer;
-        display: inline;
-        }
-        } */
         @media(max-width:31.25em){    
         .header-icons{
         font-size: 1.5rem;
@@ -267,35 +255,32 @@ font-size: 60%;
         display: inline;
         }
         }
-        /* @media(max-width:29.75em){    
-        .header-icons{
-        font-size: 1.5rem;
-        margin-left: 20%;
-        cursor: pointer;
-        display: inline;
-        }
-        } */
-        @media(max-width:27.1875em){    
+        @media(max-width:29.375em){    
         .header-icons{
         margin-left: 22%;
         }
         }
-        @media(max-width:24.6875em){    
+        @media(max-width:25.25em){    
         .header-icons{
         margin-left:15%;
         }
         }
-        @media(max-width:22.5em){    
+        @media(max-width:22.875em){    
         .header-icons{
         margin-left: 6%;
         }
         }
+        @media(max-width:21em){    
+        .header-icons{
+        margin-left: 3%;
+        }
+        }
         .group-icon{
         width: 7rem;
-        height: .15rem;
-        background-color: #5089f3;
+        height: .15rem !important;
+        background-color: #0c2c69 !important;
         position: absolute;
-        color: #5089f3;
+        color: #002874 !important;
         border: hidden;
         left: 53.8%;
         margin-top: -.15rem;
@@ -317,10 +302,10 @@ font-size: 60%;
         .group-icon{
         width: 6rem;
         height: .15rem;
-        background-color: #5089f3;
+        background-color: #0b2b68;
         position: absolute;
         top: 3.7rem;
-        color: #5089f3;
+        color: #042562;
         border: hidden;
         left: 55.2%;
         margin-top: -.15rem;
@@ -331,7 +316,7 @@ font-size: 60%;
         left: 56.2%;
         }
         }
-        @media(max-width:62.5em){    
+        @media(max-width:62.75em){    
         .group-icon{
         left: 50.5%;
         }
@@ -368,7 +353,7 @@ font-size: 60%;
         .owner-name{
         display: inline;
         font-size: 70%;
-        margin-right: .5rem;
+        margin-right: -1.2rem;
         }
         @media(max-width:81.25em){    
         .owner-name{
@@ -382,7 +367,7 @@ font-size: 60%;
         /* margin-left: 2rem; */
         border-radius: 50%;
         position: relative;
-        top: .7rem;
+        /* top: .7rem; */
         }
         @media(max-width:81.25em){    
         .header-pic{
@@ -394,12 +379,29 @@ font-size: 60%;
         }
         }
         
-        .header-2-icon{
+    .header-2-icon{
         border-radius: 50%;
         background-color: rgb(241, 241, 252);
         padding: .55rem;
-        font-size: 80%;
+        /* font-size: 80%; */
         cursor: pointer;
+        margin-left: -.5rem;
+        margin-right: -.5rem;    
+        font-size: 1.2rem;
+        }
+        @media(max-width:68.75em){    
+        .header-2-icon-messenger{
+        padding-left: -4rem !important;
+        margin-left: -1.5rem;
+        /* Pehlay ye solve kerna ha  */
+        padding-right: -1.5rem;
+        font-size: 1.2rem;
+        }
+        }
+    @media(max-width:68.75em){    
+        .box-responsive{
+        display: none;
+        }
         }
         .header-2-icon:hover,.header-2-icon-last:hover{
         background-color: rgb(224, 224, 255);
@@ -415,6 +417,7 @@ font-size: 60%;
         @media(max-width:68.75em){    
         .responsive-plus{
         display: inline;
+        margin-right: -1.5rem;
         }
         }
         .header-2-icon-last{
@@ -422,9 +425,12 @@ font-size: 60%;
         background-color: rgb(241, 241, 252);
         padding: .55rem .7rem;
         padding-top: .3rem;
-        font-size: 85%;
-        }
-
+        /* font-size: 85%; */
+        margin-left: -.5rem;
+        margin-right: -.5rem;
+        font-size: 1.2rem;            
+    }
+    
 /* sidebar */
 
 .sidebar{
@@ -435,8 +441,21 @@ font-size: 60%;
     background-color: rgb(255, 255, 255);
     color: rgb(46, 42, 42);
 padding-bottom: 7rem;
+/* margin-top: -5rem !important ; */
 }
 
+@media(max-width:78.75em){        
+    .sidebar{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+    width: 21rem;
+    padding-top: 5rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(46, 42, 42);
+    padding-bottom: 7rem;
+    margin-top: -5rem !important ;
+    }   
+    }
     @media(max-width:54.75em){        
     .sidebar{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -460,12 +479,8 @@ padding-bottom: 7rem;
     top: -.7rem;
     left: 1rem;
 }
-@media(max-width:54.75em){        
-    .sidebar-search{
-    width: 50%;
-    }   
-    }
 .sidebar-search{
+    width: 90%;
     border-radius: 5rem;
     background-color: rgb(241, 241, 252);
     border: hidden;
@@ -476,6 +491,11 @@ padding-bottom: 7rem;
     margin: .5rem;
     font-size: 90%;
     color: rgb(80, 74, 74);
+    }
+    @media(max-width:54.75em){        
+    .sidebar-search{
+    width: 90%;
+    }   
     }
     .setting{
     margin-left: 12rem;
@@ -529,7 +549,7 @@ cursor: pointer;
     background-color: #5089f3 !important;
     color: #fff;
     font-size:100%;
-    height: 1rem;
+    /* height: 1rem; */
     padding: .4rem;
     border-radius: 50%;
     cursor: pointer;
@@ -541,10 +561,10 @@ cursor: pointer;
     left: .4rem;
 }
 .name-3{
-width: 86%;
+width: 92%;
 position: relative;
-top: -.2rem;
-left: .5rem;
+top: 0.3rem;
+left: 3.5%;
 color: rgb(10, 168, 241);
 text-align: center;
 padding: .5rem;
@@ -571,7 +591,7 @@ cursor: pointer;
 .group-name-2{
     display: inline;
 position: relative;
-top: -2.3rem;
+top: -.5rem;
 left: .5rem;
 color: black;
 }
@@ -631,8 +651,10 @@ color: rgb(107, 102, 102);
     }
     @media(max-width:31.25em){    
     .center-side{
-    width: 101%;
-    margin-left:2.6%;
+    width: 99.5%;
+    margin: 0%;
+    margin-left:3.1%;
+    /* margin: auto; */
     font-size: 100%;
     /* margin-left: 10%; */
     }
@@ -682,11 +704,15 @@ color: rgb(107, 102, 102);
 
     @media(max-width:78.75em){        
     .center-responsive-card{
+        margin: auto;
+    
+    margin-top: 5rem;
     background-color: #fff !important;
     display: block;
     margin-bottom: 2.5rem !important;
     padding-bottom: 2rem !important;
     border-radius: .5rem !important;
+    width: 93%;
     } 
     }
     .more-group{
@@ -696,15 +722,30 @@ color: rgb(107, 102, 102);
     }
     @media(max-width:78.75em){        
     .more-group{
+    margin-left: 5%;
     display: block;
     color: rgb(75, 71, 71);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
     }
     }
+    @media(max-width:31.25em){        
+        .more-group{
+        display: block;
+        color: rgb(75, 71, 71);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+    /* margin-left: 5%; */
+    }
+        }
     /* Post 1 */
     .center-side-post{
     background-color: #fff;
-    border-radius: .5rem;    
+    border-radius: .5rem;
+    position: relative;
+    top: 3rem;
+    }
+    .fb-last-post{
+        padding-bottom: 1rem;
+        margin-bottom: 8rem !important;
     }
     .fb-dp{
     width: 8%;
@@ -713,11 +754,13 @@ color: rgb(107, 102, 102);
     margin-top: .8rem;
     border: .2rem solid #1877F2;
     cursor: pointer;
-    }
+    position: relative;
+margin-bottom: .5rem;
+}
     .user-name{
     display: inline;
     position: relative;
-    top: -1.8rem;
+    /* top: -1rem; */
     left: .4rem;
     cursor: pointer;
     }
@@ -725,8 +768,8 @@ color: rgb(107, 102, 102);
     font-size: 80%;
     display: inline;
     position: relative;
-    top: -.7rem;
-    left: -5.6rem;
+    top: 1rem;
+    left: -6rem;
     cursor: pointer;
     }
     .upload-pic{
@@ -947,10 +990,11 @@ color: rgb(105, 99, 99);
     padding: .5rem 5.8rem;
     background-color: #1877F2;
     color: #fff;
+    margin: auto;
     margin-top: 3rem;
-    margin-left: 1.5rem;
     margin-bottom: 1rem;
     border-radius: .4rem;
     border: hidden;
     cursor: pointer;
+width: 90%;
 }

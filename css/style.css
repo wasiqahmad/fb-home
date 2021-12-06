@@ -8,18 +8,25 @@
 body{
 background-color: rgb(241, 241, 252);
 }
-
+html{
+    font-size: 97%;
+}
 @media(max-width:23.75em){       
 html{
-font-size: 95%;
+font-size: 95% !important;
 }
-    }
+}
+@media(max-width:22.5em){       
+html{
+font-size: 90% !important;
+}
+}
 /* Header */
 .header{
     position: fixed;
     background-color: rgb(255, 255, 255);
     z-index: 10;
-    margin-top: -.8%;
+    /* margin-top: -.8%; */
     box-shadow: .1rem .1rem .1rem rgb(233, 225, 225);
     width: 100% !important;
 }
@@ -28,10 +35,10 @@ font-size: 95%;
     position: fixed;
     background-color: rgb(255, 255, 255);
     z-index: 10;
-    margin-top: -.8%;
+    /* margin-top: -.8%; */
     box-shadow: .1rem .1rem .1rem rgb(233, 225, 225);
     width: 100% !important;
-padding-bottom: .5rem; 
+/* padding-bottom: .5rem;  */
 }
 }
 @media(max-width:58.75em){    
@@ -40,11 +47,11 @@ position: fixed;
 top: -.001rem;
 background-color: rgb(255, 255, 255);
 z-index: 10;
-margin-top: -.8%;
+/* margin-top: -.8%; */
 box-shadow: .1rem .1rem .1rem rgb(233, 225, 225);
 width: 100% !important;
-padding-bottom: .5rem; 
-margin-left: -.5rem;
+/* padding-bottom: .5rem;  */
+/* margin-left: -.5rem; */
 }
 }
 a{
@@ -65,7 +72,7 @@ a{
     border: hidden;
     position: relative;
     top: -.1rem;
-    padding: .7rem;
+    padding: .5rem 1rem;
     margin: .4rem;
     font-size: 96%;
     color: rgb(161, 161, 161);
@@ -117,7 +124,7 @@ a{
     cursor: pointer;
     }
     .header-icon{
-    margin-left: 3%;
+    margin-left:4.5%;
     cursor: pointer;
     }
     @media(max-width:81.25em){    
@@ -131,7 +138,7 @@ a{
     margin-left: 15.5%;
     }
     }
-    @media(max-width:73.125em){    
+    @media(max-width:73.375em){    
     .header-icon{
     margin-left: 14.7%;
     }
@@ -141,14 +148,8 @@ a{
     margin-left: 7.7%;
     }
     }
-    /* @media(max-width:55em){    
-    .header-icon{
-    margin-left: 2.7%;
-    }
-    } */
     .icons{
     font-size: 1.5rem;
-    /* margin-left: 7%; */
     margin-left: 3.2%;
     padding: .9% 2%;
     cursor: pointer;
@@ -215,9 +216,10 @@ a{
     cursor: pointer;
     }
     }
+    
     .header-icons{
     font-size: 1.5rem;
-    margin-left: 7%;
+    margin-left: 6%;
     cursor: pointer;
     display: inline;
     }
@@ -225,6 +227,14 @@ a{
     .header-icons{
     font-size: 1.5rem;
     margin-left: 10%;
+    cursor: pointer;
+    display: inline;
+    }
+    }
+    @media(max-width:71.875em){    
+    .header-icons{
+    font-size: 1.5rem;
+    margin-left: 8%;
     cursor: pointer;
     display: inline;
     }
@@ -237,6 +247,14 @@ a{
     display: inline;
     }
     }
+    @media(max-width:43.875em){    
+    .header-icons{
+    font-size: 1.5rem;
+    margin-left: 6.5%;
+    cursor: pointer;
+    display: inline;
+    }
+    }
     @media(max-width:43.75em){    
     .header-icons{
     font-size: 1.5rem;
@@ -245,7 +263,7 @@ a{
     display: inline;
     }
     }
-    @media(max-width:38.75em){    
+    @media(max-width:39.375em){    
     .header-icons{
     font-size: 1.5rem;
     margin-left: 37%;
@@ -261,7 +279,7 @@ a{
     display: inline;
     }
     }
-    @media(max-width:32.5em){    
+    @media(max-width:32.875em){    
     .header-icons{
     font-size: 1.5rem;
     margin-left: 26%;
@@ -282,7 +300,7 @@ a{
     margin-left: 13%;
     }
     }
-    @media(max-width:24.6875em){    
+    @media(max-width:24.75em){    
     .header-icons{
     margin-left: 5%;
     }
@@ -294,13 +312,14 @@ a{
     }
     .group-icon{
     width: 7rem;
-    height: .15rem;
-    background-color: #5089f3;
+    height: .18rem !important;
+    color: #02265f !important;
+    /* border:1rem solid #02265f; */
     position: absolute;
-    color: #5089f3;
     border: hidden;
     left: 26.2%;
     margin-top: -.15rem;
+    z-index: 100 !important;
     }
     @media(max-width:81.25em){    
     .group-icon{
@@ -331,11 +350,12 @@ a{
     }
     .home{
     color:#2a74ff;
+    /* border-bottom: 2px solid #5089f3 !important; */
     }
     .owner-name{
     display: inline;
     font-size: 70%;
-    margin-right: .5rem;
+    margin-right: -1rem;
     }
     @media(max-width:81.25em){    
     .owner-name{
@@ -349,7 +369,7 @@ a{
     /* margin-left: 2rem; */
     border-radius: 50%;
     position: relative;
-    top: .7rem;
+    top: .1rem;
     }
     @media(max-width:81.25em){    
     .header-pic{
@@ -357,7 +377,7 @@ a{
     width: 2.2%;
     border-radius: 50%;
     position: relative;
-    top: .7rem;
+    top: .1rem;
     }
     }
     
@@ -365,16 +385,28 @@ a{
     border-radius: 50%;
     background-color: rgb(241, 241, 252);
     padding: .55rem;
-    font-size: 80%;
+    /* font-size: 80%; */
     cursor: pointer;
-    }
-    .header-2-icon:hover,.header-2-icon-last:hover{
-    background-color: rgb(224, 224, 255);
+    margin-left: -.5rem;
+    margin-right: -.5rem;    
+    font-size: 1.2rem;
     }
     @media(max-width:68.75em){    
+    .header-2-icon-messenger{
+    padding-left: -4rem !important;
+    margin-left: -1.5rem;
+    /* Pehlay ye solve kerna ha  */
+    padding-right: -1.5rem;
+    font-size: 1.2rem;
+    }
+    }
+@media(max-width:68.75em){    
     .box-responsive{
     display: none;
     }
+    }
+    .header-2-icon:hover,.header-2-icon-last:hover{
+    background-color: rgb(224, 224, 255);
     }
     .responsive-plus{
     display: none;
@@ -382,6 +414,7 @@ a{
     @media(max-width:68.75em){    
     .responsive-plus{
     display: inline;
+    margin-right: -1.5rem;
     }
     }
     .header-2-icon-last{
@@ -389,8 +422,12 @@ a{
     background-color: rgb(241, 241, 252);
     padding: .55rem .7rem;
     padding-top: .3rem;
-    font-size: 85%;
-    }
+    /* font-size: 85%; */
+    margin-left: -.5rem;
+    margin-right: -.5rem;
+    font-size: 1.2rem;
+        
+}
 
     /* sidebar */
 
@@ -402,7 +439,6 @@ a{
     color: rgb(46, 42, 42);
 }
 @media(max-width:68.75em){    
- 
 .sidebar{
 display: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -420,7 +456,7 @@ display: none;
     background-color: rgb(232, 232, 255);
 }
 .my-pic{
-    margin-top: 5rem;
+    margin-top: 5rem ;
     margin-left: 1rem;
     width: 8%;
     height: 50%;
@@ -430,7 +466,7 @@ display: none;
 .name{
     display: inline;
     position: relative;
-    top: -.7rem;
+    top: 2.7rem;
     left: .2rem;
     cursor: pointer;
 }
@@ -447,7 +483,6 @@ display: none;
     background-color: #5089f3;
     color: #fff;
     font-size:100%;
-    height: 1rem;
     padding: .4rem;
     border-radius: 50%;
 }
@@ -510,22 +545,140 @@ cursor: pointer;
 .id-search:hover{
 background-color: rgb(230, 230, 251);
 }
+@media(max-width:77.75em){    
+    .id-search{
+        border-radius: 5rem;
+        background-color: rgb(241, 241, 252);
+        border: hidden;
+        position: relative;
+        top: -.1rem;
+        padding: .7rem;
+        margin: .4rem;
+        font-size: 96%;
+        color: rgb(161, 161, 161);
+        width: 75%;
+        margin-top: 1rem;
+        font-size: 115% !important;
+        cursor: pointer;
+    }   }
+    
+@media(max-width:24.875em){    
+    .id-search{
+        border-radius: 5rem;
+        background-color: rgb(241, 241, 252);
+        border: hidden;
+        position: relative;
+        top: -.1rem;
+        padding: .7rem;
+        margin: .4rem;
+        font-size: 94%;
+        color: rgb(161, 161, 161);
+        width: 70%;
+        margin-top: 1rem;
+        font-size: 115% !important;
+        cursor: pointer;
+    }   }
 .top-line{
     width: 90%;
+    margin: auto;
+    margin-top: 1rem;
     margin-bottom: 0%;
 }
 .live-vedio{
     float: left;
 /* background-color: #fff; */
 margin-left: 2%;
+margin-top:.2rem;
 color: rgb(100, 98, 98);
-padding: 2% 4%;
+padding: 1.7% 4%;
 cursor: pointer;
 border-radius: .5rem;
 }
 .live-vedio:hover{
  background-color: rgb(241, 241, 252);
 }
+@media(max-width:81.625em){    
+    .live-vedio{
+    float: left;
+    margin-left: 1%;
+    color: rgb(100, 98, 98);
+    padding: 2% 3.5%;
+    cursor: pointer;
+    border-radius: .5rem;
+    }
+    }
+    @media(max-width:75.25em){    
+    .live-vedio{
+    float: left;
+    margin-left: .5%;
+    color: rgb(100, 98, 98);
+    padding: 2% 3%;
+    cursor: pointer;
+    border-radius: .5rem;
+    }
+    }
+    @media(max-width:71.125em){    
+    .live-vedio{
+    float: left;
+    margin-left: .5%;
+    color: rgb(100, 98, 98);
+    padding: 2% 2.5%;
+    cursor: pointer;
+    border-radius: .5rem;
+    }
+    }
+    @media(max-width:68.75em){    
+    .live-vedio{
+    float: left;
+    margin-left: 0.5%;
+    color: rgb(100, 98, 98);
+    padding: 2% 3.5%;
+    cursor: pointer;
+    border-radius: .5rem;
+    }
+    }
+    @media(max-width:29.25em){    
+    .live-vedio{
+    float: left;
+    margin-left: .5%;
+    color: rgb(100, 98, 98);
+    padding: 2% 2.5%;
+    cursor: pointer;
+    border-radius: .5rem;
+    }
+    }
+    @media(max-width:26.75em){    
+    .live-vedio{
+    float: left;
+    margin-left: 0%;
+    color: rgb(100, 98, 98);
+    padding: 2% 2%;
+    cursor: pointer;
+    border-radius: .5rem;
+    }
+    }
+    @media(max-width:25.375em){    
+    .live-vedio{
+    float: left;
+    margin-left: 1%;
+    color: rgb(100, 98, 98);
+    padding: 2% 3%;
+    margin-left: 10%;
+    cursor: pointer;
+    border-radius: .5rem;
+    }
+    }
+    @media(max-width:21.875em){    
+    .live-vedio{
+    float: left;
+    margin-left: 1%;
+    color: rgb(100, 98, 98);
+    padding: 2% 3%;
+    margin-left:7%;
+    cursor: pointer;
+    border-radius: .5rem;
+    }
+    }
 .vedio-icon{
     font-size: 1.5rem;
     /* width: 1.9rem; */
@@ -549,6 +702,11 @@ top:.2rem;
     position: relative;
     top:.2rem;
 }
+@media(max-width:25.375em){    
+.face{
+    display: none;
+    }
+    }
 .center-side{
     width: 39%;
     margin: auto;
@@ -602,36 +760,37 @@ border-radius: .5rem;
     width: 8%;
     border-radius: 50%;
     margin-left: 1rem;
-    margin-top: .8rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
     border: .2rem solid #1877F2;
     cursor: pointer;
 }
 .user-name{
     display: inline;
     position: relative;
-    top: -1.8rem;
+    top: -.4rem;
     left: .4rem;
     cursor: pointer;
 }
-@media(max-width:26.25em){    
+/* @media(max-width:26.25em){    
 .user-name{
     display: inline;
     position: relative;
-    top: -1.4rem;
+    top: 0rem;
     left: .4rem;
     cursor: pointer;
     }
-    }
+    } */
 .post-date{
     font-size: 80%;
     display: inline;
     position: relative;
-    top: -.7rem;
-    left: -5.6rem;
+    top: .7rem;
+    left: -5.7rem;
     cursor: pointer;
 }
 
-@media(max-width:26.25em){        
+/* @media(max-width:26.25em){        
 .post-date{
     font-size: 80%;
     display: inline;
@@ -640,7 +799,7 @@ border-radius: .5rem;
     left: -5.6rem;
     cursor: pointer;
 }
-}
+} */
 .upload-pic{
     width: 100%;
     margin-bottom: .5rem;
@@ -689,6 +848,10 @@ color: rgb(80, 74, 74);
 margin-left: 17%;
 font-size: 105%;
 cursor: pointer;
+}
+.last-post{
+margin-bottom: 5rem;
+padding-bottom: 1rem;
 }
 .feed-back:active,
 .feed-back:hover,
@@ -751,7 +914,7 @@ left: -.1rem;
 
 /* Right side */
 .right-side{
-width:30% ;
+width:30% !important;
 /* margin-top: -1.3rem; */
 padding-top: 4rem;
 color: rgb(46, 42, 42);
@@ -762,13 +925,14 @@ top: 1.9rem;
 }
 @media(max-width:68.75em){    
     .right-side{
-    width:40% ;
+    width:40% !important;
     padding-top: 4rem;
     color: rgb(46, 42, 42);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
     position: fixed;
     left: 56%;
     top: 1.9rem;
+    margin-left: 2rem;
     }
     }
 @media(max-width:56.25em){    
@@ -779,7 +943,7 @@ top: 1.9rem;
     color: rgb(46, 42, 42);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
     position: fixed;
-    left: 56%;
+    left: 56% !important;
     top: 1.9rem;
     }
     }
@@ -787,6 +951,7 @@ top: 1.9rem;
 .Contacts{
     text-align: center;
     margin-left: 6.4rem;
+/* margin-top: -.7rem; */
 }
 .contact-heading{
     font-size: 115%;
@@ -822,11 +987,12 @@ color: rgb(98, 89, 89) !important;
 .contact-name{
     display: inline;
     position: relative;
-    top: -.7rem;
+    top: .7rem;
     left: .3rem;
 }
 .contact-pic{
-    margin-top:1.5rem;
+    margin-top:1.4rem;
+    /* padding-bottom: .5rem; */
     margin-bottom: .05rem;
     margin-left:33.2%;
     width: 2rem;

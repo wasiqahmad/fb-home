@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Market | Facebook</title>
+<!-- boot-5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<!-- Font-Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"rel="stylesheet"/>
     <link rel="icon" href="../images/facebook.svg">  
     <link rel="stylesheet" href="../css/market.css">
@@ -14,30 +19,70 @@
         <!-- Header -->
 
         <header class="header">
-        <i class="fab fa-facebook icon"></i>
-        <form action="#" class="search-bar">
-        <i class="fas fa-search search-logo"></i>
-        <i class="fas fa-sliders-h  nav-btn"></i>
-        </form>
-        <span class="header-icon">
-        <a href="../index.html"><i class="fas fa-home icons"></i></a>
-<a href="https://www.youtube.com/"><i class="fab fa-youtube icons"></i></a>
-       <a href="#"><i class="fas fa-archive market icons"></i></a>
-        <a href="./groups.html"><i class="fas fa-users icons "></i></a>
-        <i class="fas fa-archive icons responsive-box"></i>
-        <i class="fas fa-sliders-h icons lines"></i>
-            <span class="header-icons">
+            <i class="fab fa-facebook icon"></i>
+            <form action="#" class="search-bar">
+            <i class="fas fa-search search-logo"></i>
+            <i class="fas fa-sliders-h  nav-btn"></i>
+            </form>
+            <span class="header-icon">
+            <a href="../index.html"><i class="fas fa-home icons"></i></a>
+            <a href="https://www.youtube.com/"><i class="fab fa-youtube icons"></i></a>
+            <a href="./market.html"><i class="fas fa-archive icons market"></i></a>
+            <a href="./groups.html"><i class="fas fa-users group icons "></i></a>
+            <i class="fas fa-archive  icons responsive-box"></i>
+            <i class="fas fa-sliders-h icons lines"></i>
+    
+        <span class="header-icons">
             <img src="../images/Screenshot (31).png" alt="My pic" class="header-pic"> 
             <p class="owner-name">Wasiq</p>
-            <i class="fas fa-th header-2-icon box-responsive"></i>
-        <i class="fas fa-plus responsive-plus header-2-icon"></i>
-            <i class="fab fa-facebook-messenger header-2-icon"></i>
-            <i class="fas fa-bell header-2-icon"></i>
-            <i class="fas fa-sort-down header-2-icon-last"></i>   
-        </span>
-    <hr class="group-icon">
-    </header>
         
+            
+            <div class="btn-group">
+                <button type="button" class="btn dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-plus responsive-plus header-2-icon"></i>    
+                </button>
+                <ul class="dropdown-menu">
+                <img src="../images/Screenshot (99).png" alt="">
+                </ul>
+                </div>
+            
+            <div class="btn-group">
+            <button type="button" class="btn dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-th header-2-icon box-responsive"></i>    
+            </button>
+            <ul class="dropdown-menu">
+            <img src="../images/Screenshot (99).png" alt="">
+            </ul>
+            </div>
+        
+          <div class="btn-group">
+            <button type="button" class="btn dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fab fa-facebook-messenger header-2-icon header-2-icon-messenger"></i>
+            </button>
+            <ul class="dropdown-menu">
+            <img src="../images/Screenshot (96).png" alt="">
+            </ul>
+          </div>
+          
+        <div class="btn-group">
+            <button type="button" class="btn dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-bell header-2-icon header-2-icon-responsive"></i>
+            </button>
+            <ul class="dropdown-menu">
+            <img src="../images/Screenshot (96).png" alt="">
+            </ul>
+          </div>
+          <div class="btn-group">
+              <button type="button" class="btn dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-sort-down header-2-icon header-2-icon-last"></i>   
+              </button>
+              <ul class="dropdown-menu">
+               <img src="../images/Screenshot (100).png" alt="">
+              </ul>
+            </div>
+        </span><hr class="group-icon">
+    </header>
+            
     <!-- Sidebar -->
 
     <div class="sidebar">
@@ -105,19 +150,19 @@
 <div class="Fb-cards">
     <h3 class="post-date">Today's picks</h3>
     <p class="Location-faisalabad"><i class="fas fa-map-marker-alt"></i> Faisalabad . 60km</p>
-    <div class="card">
+    <div class="cards">
     <img src="../images/1.jpg" alt="Card" class="card-pic">
     <p class="type">Free</p>
     <p class="quantity">3 pc suite</p>
     <p class="locate">Faisalabad</p>
 </div>
-<div class="card">
+<div class="cards">
     <img src="../images/2.jpg" alt="Card" class="card-pic">
     <p class="type"> Rs 150</p>
     <p class="quantity"> Kite</p>
     <p class="locate">Faisalabad</p>
     </div>
-    <div class="card card-responsive">
+    <div class="cards card-responsive">
     <img src="../images/6.jpg" alt="Card" class="card-pic">
     <p class="type">Rs 25000</p>
     <p class="quantity">Bike</p>
@@ -125,14 +170,14 @@
     </div>
     
 <!-- only responsive cards available -->
-<div class="card row-last card-responsive card-last">
+<div class="cards row-last card-responsive card-last">
     <img src="../images/16.jpg" alt="Card" class="card-pic">
     <p class="type">Rs 4500</p>
     <p class="quantity">Watch</p>
     <p class="locate">Faisalabad</p>
 </div>
 
-<div class="card row-last card-responsive card-last">
+<div class="cards row-last card-responsive card-last">
     <img src="../images/11.jpg" alt="Card" class="card-pic">
     <p class="type">Rs 4500</p>
     <p class="quantity">Joger</p>
@@ -142,20 +187,20 @@
 
     <h3 class="post-date">Mobile</h3>
     <p class="see-all">See All</p>
-    <div class="card">
+    <div class="cards">
     <img src="../images/4.jpg" alt="Card" class="card-pic">
     <p class="type">Rs 8000</p>
     <p class="quantity">Mobile</p>
     <p class="locate">Faisalabad</p>
     </div>
 
-<div class="card row-last-responsive">
+<div class="cards row-last-responsive">
     <img src="../images/3.jpg" alt="Card" class="card-pic">
     <p class="type">Rs 180000</p>
     <p class="quantity">i phone</p>
     <p class="locate">Faisalabad</p>
 </div>
-<div class="card row-last card-responsive">
+<div class="cards row-last card-responsive">
     <img src="../images/20.jpg" alt="Card" class="card-pic">
     <p class="type">Rs 26500</p>
     <p class="quantity">Mobile</p>
@@ -167,20 +212,20 @@
 <!-- <p class="see-all">See All</p> -->
 
 <p class="see-all">See All</p>
-<div class="card">
+<div class="cards">
     <img src="../images/9.jpg" alt="Card" class="card-pic">
     <p class="type">Rs 4500</p>
     <p class="quantity">Suit</p>
     <p class="locate">Faisalabad</p>
 </div>
 
-<div class="card row-last-responsive">
+<div class="cards row-last-responsive">
     <img src="../images/10.jpg" alt="Card" class="card-pic">
     <p class="type">Rs 350000</p>
     <p class="quantity">Gold set</p>
     <p class="locate">Faisalabad</p>
 </div>
-<div class="card row-last card-responsive">
+<div class="cards row-last card-responsive">
     <img src="../images/11.jpg" alt="Card" class="card-pic">
     <p class="type">Rs 4500</p>
     <p class="quantity">Joger</p>
@@ -188,14 +233,14 @@
 </div>
 
 <!-- only responsive card available -->
-<div class="card row-last card-responsive card-last">
+<div class="cards row-last card-responsive card-last">
     <img src="../images/20.jpg" alt="Card" class="card-pic">
     <p class="type">Rs 26500</p>
     <p class="quantity">Mobile</p>
     <p class="locate">Faisalabad</p>
 </div>
 
-<div class="card row-last card-responsive card-last">
+<div class="cards row-last card-responsive card-last">
     <img src="../images/6.jpg" alt="Card" class="card-pic">
     <p class="type">Rs 25000</p>
     <p class="quantity">Bike</p>
@@ -205,20 +250,20 @@
 
 <h3 class="post-date">Watch</h3>
 <p class="see-all">See All</p>
-<div class="card">
+<div class="cards">
     <img src="../images/14.jpg" alt="Card" class="card-pic">
     <p class="type">Rs 2500</p>
     <p class="quantity">Gents Watch</p>
     <p class="locate">Faisalabad</p>
 </div>
 
-<div class="card row-last-responsive">
+<div class="cards row-last-responsive">
     <img src="../images/15.jpg" alt="Card" class="card-pic">
     <p class="type">Rs 1200</p>
     <p class="quantity">Ring</p>
     <p class="locate">Faisalabad</p>
 </div>
-<div class="card row-last card-responsive">
+<div class="cards row-last card-responsive">
     <img src="../images/16.jpg" alt="Card" class="card-pic">
     <p class="type">Rs 4500</p>
     <p class="quantity">Watch</p>

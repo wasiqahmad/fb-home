@@ -6,20 +6,20 @@ body{
     background-color: rgb(255, 255, 252);
     }
     }
-   
+ html{
+     font-size: 98%;
+ }  
 @media(max-width:51.875em){        
     html{
     font-size: 95%;
     }
     }
-/* header */
-/* Header */
- 
+/* header */ 
 .header{
     position: fixed;
     background-color: rgb(255, 255, 255);
     z-index: 10;
-    margin-top: -.8%;
+    /* margin-top: -.8%; */
     box-shadow: .1rem .1rem .1rem rgb(233, 225, 225);
     width: 100% !important;
 }
@@ -28,10 +28,10 @@ body{
     position: fixed;
     background-color: rgb(255, 255, 255);
     z-index: 10;
-    margin-top: -.8%;
+    /* margin-top: -.8%; */
     box-shadow: .1rem .1rem .1rem rgb(233, 225, 225);
     width: 100% !important;
-padding-bottom: .5rem; 
+/* padding-bottom: .5rem;  */
 }
 }
 @media(max-width:58.75em){    
@@ -40,10 +40,10 @@ position: fixed;
 top: -.001rem;
 background-color: rgb(255, 255, 255);
 z-index: 10;
-margin-top: -.8%;
+/* margin-top: -.8%; */
 box-shadow: .1rem .1rem .1rem rgb(233, 225, 225);
 width: 100% !important;
-padding-bottom: .5rem; 
+/* padding-bottom: .5rem;  */
 }
 }
 @media(max-width:31.25em){    
@@ -52,11 +52,11 @@ position: fixed;
 top: -.001rem;
 background-color: rgb(255, 255, 255);
 z-index: 10;
-margin-top: -.8%;
+/* margin-top: -.8%; */
 box-shadow: .1rem .1rem .1rem rgb(233, 225, 225);
 width: 100% !important;
-padding-bottom: .5rem;
-margin-left: -.5rem; 
+/* padding-bottom: .5rem; */
+/* margin-left: -.5rem;  */
 }
 }           
 .icon{
@@ -122,6 +122,9 @@ color: rgb(161, 161, 161);
     .header-icon{
     margin-left: 9%;
     }
+    }
+    .market{
+        color: #5089f3 !important;
     }
     a{
         color: black;
@@ -192,109 +195,118 @@ color: rgb(161, 161, 161);
     cursor: pointer;
     }
     }
+    .header-2-icon-last{
+        border-radius: 100%;
+        background-color: rgb(241, 241, 252);
+        padding: .55rem .7rem;
+        padding-top: .3rem;
+        /* font-size: 85%; */
+        margin-left: -.5rem;
+        margin-right: -.5rem;
+        font-size: 1.2rem !important;            
+    }
     .header-icons{
-    font-size: 1.5rem;
-    margin-left: 9%;
-    cursor: pointer;
-    display: inline;
-    }
-    /* @media(max-width:55em){    
-    .header-icons{
-    font-size: 1.5rem;
-    margin-left: 14%;
-    cursor: pointer;
-    display: inline;
-    }
-    } */
-    @media(max-width:50em){    
-    .header-icons{
-    font-size: 1.5rem;
-    margin-left: 12%;
-    cursor: pointer;
-    display: inline;
-    }
-    }
-    @media(max-width:45.625em){    
-    .header-icons{
-    font-size: 1.5rem;
-    margin-left: 8%;
-    cursor: pointer;
-    display: inline;
-    }
-    }
-    @media(max-width:43.75em){    
-    .header-icons{
-    font-size: 1.5rem;
-    margin-left: 42%;
-    cursor: pointer;
-    display: inline;
-    }
-    }
-    @media(max-width:38.75em){    
-    .header-icons{
-    font-size: 1.5rem;
-    margin-left: 37%;
-    cursor: pointer;
-    display: inline;
-    }
-    } 
-     @media(max-width:35.625em){    
-    .header-icons{
-    font-size: 1.5rem;
-    margin-left: 32%;
-    cursor: pointer;
-    display: inline;
-    }
-    } 
-     @media(max-width:32.5em){    
-    .header-icons{
-    font-size: 1.5rem;
-    margin-left: 26%;
-    cursor: pointer;
-    display: inline;
-    }
-    }
-    @media(max-width:31.25em){    
-    .header-icons{
-    font-size: 1.5rem;
-    margin-left: 28%;
-    cursor: pointer;
-    display: inline;
-    }
-    }
-    @media(max-width:29.75em){    
-    .header-icons{
-    font-size: 1.5rem;
-    margin-left: 22%;
-    cursor: pointer;
-    display: inline;
-    }
-    }
-    @media(max-width:27.1875em){    
-    .header-icons{
-    margin-left: 16%;
-    }
-    }
-    @media(max-width:24.6875em){    
-    .header-icons{
-    margin-left: 11%;
-    }
-    }
-    @media(max-width:22.5em){    
-    .header-icons{
-    margin-left: 2%;
-    }
-    }
-    
+        font-size: 1.5rem;
+        margin-left: 6%;
+        cursor: pointer;
+        display: inline;
+        }
+        @media(max-width:81.25em){    
+        .header-icons{
+        font-size: 1.5rem;
+        margin-left: 10%;
+        cursor: pointer;
+        display: inline;
+        }
+        }
+        @media(max-width:71.875em){    
+        .header-icons{
+        font-size: 1.5rem;
+        margin-left: 8%;
+        cursor: pointer;
+        display: inline;
+        }
+        }
+        @media(max-width:68.125em){    
+        .header-icons{
+        font-size: 1.5rem;
+        margin-left: 7%;
+        cursor: pointer;
+        display: inline;
+        }
+        }
+        @media(max-width:43.875em){    
+        .header-icons{
+        font-size: 1.5rem;
+        margin-left: 6.5%;
+        cursor: pointer;
+        display: inline;
+        }
+        }
+        @media(max-width:43.75em){    
+        .header-icons{
+        font-size: 1.5rem;
+        margin-left: 42%;
+        cursor: pointer;
+        display: inline;
+        }
+        }
+        @media(max-width:40.375em){    
+        .header-icons{
+        font-size: 1.5rem;
+        margin-left: 37%;
+        cursor: pointer;
+        display: inline;
+        }
+        }
+        @media(max-width:36.625em){    
+        .header-icons{
+        font-size: 1.5rem;
+        margin-left: 32%;
+        cursor: pointer;
+        display: inline;
+        }
+        }
+        @media(max-width:33.5em){    
+        .header-icons{
+        font-size: 1.5rem;
+        margin-left: 26%;
+        cursor: pointer;
+        display: inline;
+        }
+        }
+        @media(max-width:30.375em){    
+        .header-icons{
+        font-size: 1.5rem;
+        margin-left: 20%;
+        cursor: pointer;
+        display: inline;
+        }
+        }
+        @media(max-width:27.875em){    
+        .header-icons{
+        margin-left: 13%;
+        }
+        }
+        @media(max-width:25.375em){    
+        .header-icons{
+        margin-left: 5%;
+        }
+        }
+        @media(max-width:23em){    
+        .header-icons{
+        margin-left: -7%;
+        }
+        }
     .group-icon{
     width: 7rem;
-    height: .15rem;
-    background-color: #5089f3;
+    height: .15rem !important;
+    background-color: #041f52;
     position: absolute;
-    color: #5089f3;
+    color: #04132e;
     border: hidden;
     left: 44.8%;
-    margin-top: -.15rem;
+    margin-top: -.2rem;
     }
     @media(max-width:81.25em){    
     .group-icon{
@@ -364,7 +376,7 @@ color: rgb(161, 161, 161);
     .owner-name{
     display: inline;
     font-size: 70%;
-    margin-right: .5rem;
+    margin-right: -1.2rem;
     }
     @media(max-width:81.25em){    
     .owner-name{
@@ -378,7 +390,7 @@ color: rgb(161, 161, 161);
     /* margin-left: 2rem; */
     border-radius: 50%;
     position: relative;
-    top: .7rem;
+    /* top: .7rem; */
     }
     @media(max-width:81.25em){    
     .header-pic{
@@ -396,7 +408,20 @@ color: rgb(161, 161, 161);
     padding: .55rem;
     font-size: 80%;
     cursor: pointer;
+    margin-left: -.5rem;
+    margin-right: -.5rem;    
+    font-size: 1.2rem;
     }
+    
+    @media(max-width:68.75em){    
+        .header-2-icon-messenger{
+        padding-left: -4rem !important;
+        margin-left: -2rem;
+        /* Pehlay ye solve kerna ha  */
+        /* padding-right: -1.5rem; */
+        font-size: 1.2rem;
+        }
+        }
     .header-2-icon:hover,.header-2-icon-last:hover{
     background-color: rgb(224, 224, 255);
     }
@@ -452,10 +477,12 @@ padding-bottom: 7rem;
     position: relative;
     top: -1rem;
     left: 1rem;
+    font-size: 1.6rem;
+    /* font-size: 99%; */
 }
 
 .sidebar-search{
-    width: 52%;
+    width: 92%;
     border-radius: 5rem;
     background-color: rgb(241, 241, 252);
     border: hidden;
@@ -467,14 +494,14 @@ padding-bottom: 7rem;
     font-size: 90%;
     color: rgb(80, 74, 74);
     }
-    @media(max-width:76.875em){    
+    /* @media(max-width:76.875em){    
     .sidebar-search{
-    width: 47%;
+    width: 90%;
     }
     }
     @media(max-width:70.625em){    
     .sidebar-search{
-    width: 42%;
+    width: 90%;
     }
     }
     @media(max-width:64.375em){    
@@ -486,7 +513,7 @@ padding-bottom: 7rem;
     .sidebar-search{
     width: 33%;
     }
-    }
+    } */
     .setting{
     margin-left: 45%;
     /* margin-left: 9rem; */
@@ -507,14 +534,14 @@ padding-bottom: 7rem;
     margin-left: 37%;
     }
     }
-    @media(max-width:64.375em){    
+    @media(max-width:65.125em){    
     .setting{
-    margin-left: 32%;
+    margin-left: 31%;
     }
     }
-    @media(max-width:59.375em){    
+    @media(max-width:59.5em){    
     .setting{
-    margin-left: 28%;
+    margin-left: 27%;
     }
     }
 .my-pic-2{
@@ -557,10 +584,10 @@ cursor: pointer;
     left: .4rem;
 }
 .name-3{
-width: 86%;
+width: 92%;
 position: relative;
 top: -.2rem;
-left: .5rem;
+left: .7rem;
 color: rgb(10, 168, 241);
 text-align: center;
 padding: .5rem;
@@ -786,7 +813,7 @@ border-bottom: 1px solid #5089f3;
     left: 34%;
     }
     }   
-.card{
+.cards{
     /* width: 19rem; */
 width: 31.5%;
     cursor: pointer;
@@ -795,7 +822,7 @@ width: 31.5%;
     margin-left: .7rem;
 }
 @media(max-width:40.625em){       
-.card{
+.cards{
     width: 47%;
     cursor: pointer;
     font-size: 100%;
@@ -803,13 +830,12 @@ width: 31.5%;
     margin-left: .7rem;
     }
     }
-    
 @media(max-width:28.125em){       
-    .card{
+    .cards{
     margin-left: .5rem;
     width: 47%;
-        }
-        }
+    }
+    }
 @media(max-width:40.625em){       
     .card-responsive{
     display: none;
@@ -847,6 +873,7 @@ width: 31.5%;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 margin-bottom: 0%;
+margin-top: .7rem;
 }
 .quantity{
     margin-top: 0%;
