@@ -148,6 +148,198 @@ a{
     margin-left: 7.7%;
     }
     }
+
+/* Dropdown */
+.dropdown{
+padding: .5rem 1rem;
+
+}
+.dropdown-search{
+border-radius: 5rem;
+background-color: rgb(241, 241, 252);
+border: hidden;
+padding: .5rem;
+padding-left: .5rem;
+padding-right: 9rem;
+cursor: pointer;
+margin-top: .4rem;
+}
+.dropdown-search:hover{
+background-color: rgb(227, 227, 253);
+}
+.social{
+    margin-top: 1rem;
+    margin-left: .4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 120%;
+    cursor: text;
+}
+.menu{
+    padding: .4rem 1rem;
+    padding-bottom: -.3rem !important;
+border-radius: .5rem;
+}
+.menu:hover{
+background-color: rgb(241, 241, 252);
+}
+.icon-friend{
+    color: #4d96f5;
+    font-size: 140%;
+    position: relative;
+    top: .4rem;
+}
+.campus{
+    display: inline;
+    color: black;
+    font-weight: 600;
+    padding-left: .5rem;
+    margin-bottom: 0%;
+}
+.information{
+    font-size: 80%;
+    margin-left: 12%;
+    margin-bottom: 0%;
+}
+.dropdown-flag{
+color: rgb(255, 136, 0);
+}
+.dropdown-group{
+background-color: #1877F2;
+border-radius: 50%;
+color: #fff;
+padding: .5rem;
+font-size: 95%;
+margin-left: -.4rem;
+}
+.menu-messenger{
+    padding: 0 1rem;
+    padding-bottom: .3rem !important;
+    border-radius: .5rem;
+    margin-top: 1rem;
+}
+.menu-messenger:hover{
+background-color: rgb(241, 241, 252);
+}
+.dropdown-Messenger{
+    font-size: 150%;
+    color: black;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline;
+}
+.dotes{
+    margin-left: 14%;
+    padding: .6rem;
+    border-radius: 50%;
+}
+.dotes:hover{
+background-color: rgb(235, 235, 253); 
+}
+.messenger-icon{
+    margin-left: 1%;
+    padding: .6rem;
+    border-radius: 50%;
+}
+.messenger-icon:hover{
+background-color: rgb(235, 235, 253); 
+}
+.messenger-dp{
+    width: 3rem;
+    border-radius: 50%;
+    margin-left: -.5rem;
+    /* margin-top: 1rem; */
+    display: inline;
+    position: relative;
+    top: 1rem;
+    /* left: .5rem; */
+}
+.dropdown-dp-name{
+    color: black;
+    margin-top: -2rem;
+    margin-left: 3rem;
+    margin-bottom: 0%;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.messenger-information{  
+font-size: 80%;
+margin-left: 15%;
+margin-bottom: 0%;
+}
+
+.menu-messenger-2{
+    padding: 0 1rem;
+    padding-bottom: .3rem !important;
+    border-radius: .5rem;
+    /* margin-top: 1rem; */
+}
+.menu-messenger-2:hover{
+background-color: rgb(241, 241, 252);
+}
+.notification{
+    /* display: hidden !important; */
+width: 20rem;
+}
+.arrow{
+width: 24rem;
+}
+.profiles{
+    /* font-size: 90%; */
+    width: 22.7rem;
+    margin: auto;
+padding: .1rem;
+border-radius: 1rem;
+}
+.profiles:hover{
+background-color: rgb(235, 235, 253);
+}
+.dropdown-pic{
+    width: 3.5rem;
+    border-radius:50%;
+    display: inline;
+    margin-left: .5rem;
+position: relative;
+top: .6rem;
+}
+.my-name{
+    display: inline;
+    margin-left: .5rem;
+    margin-bottom: 0%;
+}
+.profile{
+margin-left: 5rem;
+margin-top: -1.3rem;
+color: rgb(71, 66, 66);
+}
+.dropdown-line{
+    margin-top: .5rem;
+    width: 85%;
+    margin: auto;
+}
+.msg{
+    display: inline;
+font-size: 1rem;
+padding: .7rem;
+border-radius: 50%;
+position: relative;
+top: 2rem;
+left: 1rem;
+}
+.msg{
+background-color: rgb(235, 235, 253);
+}
+.feedback{
+margin-bottom: 0;
+display: inline;
+margin-left: 2rem;
+position: relative;
+padding-top: 2rem;
+}
+.feedback-help{
+    margin-left: 2rem;
+}
+/* remaining header */
+
     .icons{
     font-size: 1.5rem;
     margin-left: 3.2%;
@@ -746,7 +938,7 @@ border-radius: .5rem;
    }
 @media(max-width:31.25em){    
     .center-side{
-    width: 100%;
+    width: 99%;
     margin-left:auto ;
     position: relative;
     top: 3rem;
