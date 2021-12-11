@@ -148,7 +148,7 @@ a{
     margin-left: 7.7%;
     }
     }
-
+    
 /* Dropdown */
 .dropdown{
 padding: .5rem 1rem;
@@ -498,6 +498,59 @@ padding: .2rem 0rem;
 .see-all:hover{
     background-color: rgb(227, 227, 253);
 }
+/* after setting */
+@media(max-width:28.125em){    
+.responsive-type{
+margin-top: 2.5rem;
+margin-left: 110% !important;
+/* position: relative; */
+
+/* left: -10.1rem; */
+}
+}
+@media(max-width:28.125em){    
+    .responsive-type-2{
+    margin-top: 2.5rem;
+    margin-left: 240% !important;
+    /* position: relative; */
+    /* left: -6.6rem; */
+    }
+    }
+    @media(max-width:28.125em){    
+        .responsive-type-3{
+        margin-top: 2.5rem;
+        margin-left: 350% !important;
+        /* position: relative;
+        left: -3.2rem; */
+        }
+        }
+@media(max-width:28.125em){    
+.responsive-plus{
+position: relative;
+top: 1.35rem;
+    
+}
+}
+@media(max-width:28.125em){        
+.header-ico{
+position: relative;
+top: -.6rem;
+}   
+}
+@media(max-width:28.125em){        
+.header-icono{
+position: relative;
+top: -1.2rem;
+left: 60%;
+}   
+}
+@media(max-width:21.875em){        
+.header-icono{
+position: relative;
+top: -1.2rem;
+left: 55%;
+}   
+}
 /* remaining header */
 
     .icons{
@@ -639,27 +692,47 @@ padding: .2rem 0rem;
     display: inline;
     }
     }
-    @media(max-width:29.75em){    
+    @media(max-width:29.5em){    
     .header-icons{
     font-size: 1.5rem;
-    margin-left: 20%;
+    margin-left: 0%;
     cursor: pointer;
     display: inline;
+    margin-left: 22%;
     }
     }
-    @media(max-width:27.1875em){    
-    .header-icons{
-    margin-left: 13%;
-    }
-    }
-    @media(max-width:24.75em){    
-    .header-icons{
-    margin-left: 5%;
-    }
-    }
+    @media(max-width:28.125em){    
+        .header-icons{
+        font-size: 1.5rem;
+        margin-left: 0%;
+        cursor: pointer;
+        display: inline;
+        margin-left: -27%;
+        }
+        }
+        @media(max-width:26.625em){    
+        .header-icons{
+        margin-left: -31%;
+        }
+        }
+        @media(max-width:25.5em){    
+        .header-icons{
+        margin-left: -35%;
+        }
+        }
+        @media(max-width:24.125em){    
+        .header-icons{
+        margin-left: -38%;
+        }
+        }
     @media(max-width:22.5em){    
     .header-icons{
-    margin-left: -3.2%;
+    margin-left: -40%;
+    }
+    }
+    @media(max-width:20.725em){    
+    .header-icons{
+    margin-left: -43%;
     }
     }
     .group-icon{
@@ -769,17 +842,16 @@ padding: .2rem 0rem;
     margin-right: -1.5rem;
     }
     }
+    
     .header-2-icon-last{
     border-radius: 100%;
     background-color: rgb(241, 241, 252);
     padding: .55rem .7rem;
     padding-top: .3rem;
-    /* font-size: 85%; */
     margin-left: -.5rem;
     margin-right: -.5rem;
-    font-size: 1.2rem;
-        
-}
+    font-size: 1.2rem;        
+    }
 
     /* sidebar */
 
@@ -1059,6 +1131,10 @@ top:.2rem;
     display: none;
     }
     }
+    .all-pics-post{
+        background-color: #fff;
+    border-radius: .5rem;
+    }
 .center-side{
     width: 39%;
     margin: auto;
@@ -1067,10 +1143,6 @@ top:.2rem;
     /* left: -.2rem; */
 
     /* background-color: #fff; */
-}
-.all-pics-post{
-    background-color: #fff;
-border-radius: .5rem;
 }
 @media(max-width:68.75em){    
     .center-side{
@@ -1100,6 +1172,16 @@ border-radius: .5rem;
     .center-side{
     width: 98%;
     margin:auto ;
+    position: relative;
+    top: 3rem;
+    font-size: 97%;    
+}
+}
+@media(max-width:28.125em){    
+    .center-side{
+    width: 98%;
+    margin:auto ;
+    margin-top: 3rem;
     position: relative;
     top: 3rem;
     font-size: 97%;    

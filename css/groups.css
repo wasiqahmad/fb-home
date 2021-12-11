@@ -259,20 +259,45 @@ font-size: 60%;
         .header-icons{
         margin-left: 22%;
         }
-        }
-        @media(max-width:25.25em){    
+        }@media(max-width:28.125em){    
+            .header-icons{
+            font-size: 1.5rem;
+            margin-left: 0%;
+            cursor: pointer;
+            display: inline;
+            margin-left: -23%;
+            position: relative;
+            top: .2rem;
+            }
+            }
+            @media(max-width:26.625em){    
+            .header-icons{
+            margin-left: -25%;
+            }
+            }
+            @media(max-width:25.5em){    
+            .header-icons{
+            margin-left: -28%;
+            }
+            }
+            @media(max-width:24.125em){    
+            .header-icons{
+            margin-left: -31%;
+            }
+            }
+        @media(max-width:22.5em){    
         .header-icons{
-        margin-left:15%;
+        margin-left: -36%;
         }
         }
-        @media(max-width:22.875em){    
+        @media(max-width:21.725em){    
         .header-icons{
-        margin-left: 6%;
+        margin-left: -40%;
         }
         }
-        @media(max-width:21em){    
+        @media(max-width:20.725em){    
         .header-icons{
-        margin-left: 3%;
+        margin-left: -43%;
         }
         }
         .group-icon{
@@ -778,6 +803,58 @@ font-size: 60%;
         .see-all:hover{
             background-color: rgb(227, 227, 253);
         }
+        @media(max-width:28.125em){    
+            .responsive-type{
+            margin-top: 2.5rem;
+            margin-left: 110% !important;
+            /* position: relative; */
+            
+            /* left: -10.1rem; */
+            }
+            }
+            @media(max-width:28.125em){    
+                .responsive-type-2{
+                margin-top: 2.5rem;
+                margin-left: 240% !important;
+                /* position: relative; */
+                /* left: -6.6rem; */
+                }
+                }
+                @media(max-width:28.125em){    
+                    .responsive-type-3{
+                    margin-top: 2.5rem;
+                    margin-left: 350% !important;
+                    /* position: relative;
+                    left: -3.2rem; */
+                    }
+                    }
+            @media(max-width:28.125em){    
+            .responsive-plus{
+            position: relative;
+            top: 1.35rem;
+                
+            }
+            }
+            @media(max-width:28.125em){        
+            .header-ico{
+            position: relative;
+            top: -.6rem;
+            }   
+            }
+            @media(max-width:28.125em){        
+            .header-icono{
+            position: relative;
+            top: -1.2rem;
+            left: 60%;
+            }   
+            }
+            @media(max-width:21.875em){        
+            .header-icono{
+            position: relative;
+            top: -1.2rem;
+            left: 55%;
+            }   
+            }
 /* sidebar */
 
 .sidebar{

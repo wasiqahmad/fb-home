@@ -283,21 +283,41 @@ color: rgb(161, 161, 161);
         display: inline;
         }
         }
-        @media(max-width:27.875em){    
+        
+    @media(max-width:28.125em){    
         .header-icons{
-        margin-left: 13%;
+        font-size: 1.5rem;
+        margin-left: 0%;
+        cursor: pointer;
+        display: inline;
+        margin-left: -30%;
         }
         }
-        @media(max-width:25.375em){    
+        @media(max-width:26.625em){    
         .header-icons{
-        margin-left: 5%;
+        margin-left: -35%;
         }
         }
-        @media(max-width:23em){    
+        @media(max-width:25.5em){    
         .header-icons{
-        margin-left: -7%;
+        margin-left: -38%;
         }
         }
+        @media(max-width:24em){    
+        .header-icons{
+        margin-left: -42.4%;
+        }
+        }
+    @media(max-width:22.5em){    
+    .header-icons{
+    margin-left: -48%;
+    }
+    }
+    @media(max-width:21.125em){    
+    .header-icons{
+    margin-left: -54%;
+    }
+    }
     .group-icon{
     width: 7rem;
     height: .15rem !important;
@@ -795,6 +815,59 @@ color: rgb(161, 161, 161);
     .see-alls:hover{
         background-color: rgb(227, 227, 253);
     }
+/* after setting */
+@media(max-width:28.125em){    
+    .responsive-type{
+    margin-top: 2.5rem;
+    margin-left: 110% !important;
+    /* position: relative; */
+    
+    /* left: -10.1rem; */
+    }
+    }
+    @media(max-width:28.125em){    
+        .responsive-type-2{
+        margin-top: 2.5rem;
+        margin-left: 240% !important;
+        /* position: relative; */
+        /* left: -6.6rem; */
+        }
+        }
+        @media(max-width:28.125em){    
+            .responsive-type-3{
+            margin-top: 2.5rem;
+            margin-left: 350% !important;
+            /* position: relative;
+            left: -3.2rem; */
+            }
+            }
+    @media(max-width:28.125em){    
+    .responsive-plus{
+    position: relative;
+    top: 1.35rem;
+        
+    }
+    }
+    @media(max-width:28.125em){        
+    .header-ico{
+    position: relative;
+    top: -.6rem;
+    }   
+    }
+    @media(max-width:28.125em){        
+    .header-icono{
+    position: relative;
+    top: -1.2rem;
+    left: 60%;
+    }   
+    }
+    @media(max-width:22.525em){        
+    .header-icono{
+    position: relative;
+    top: -1.2rem;
+    left: 55%;
+    }   
+    }    
 
     /* sidebar */
 
@@ -1078,6 +1151,11 @@ margin-left: .5rem;
     background-color: #fff;
     }
     }
+    @media(max-width:28.125em){    
+    .Fb-cards{
+        margin-top: 3rem;
+        }
+        }
 .post-date{
     margin-left: .7rem;
 cursor: pointer;
@@ -1127,6 +1205,13 @@ left: 70%;
 left: 65%;
 }
 }
+@media(max-width:28.125em){       
+    .Location-faisalabad{
+/* position: relative; */
+top: 0rem;
+margin-top: 7rem !important;
+    }
+    }
 @media(max-width:27.5em){       
 .Location-faisalabad{
 left: 61%;
