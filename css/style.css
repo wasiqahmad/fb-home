@@ -148,7 +148,9 @@ a{
     margin-left: 7.7%;
     }
     }
-    
+    .btn:focus{
+        box-shadow: none !important;
+    }
 /* Dropdown */
 .dropdown{
 padding: .5rem 1rem;

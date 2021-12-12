@@ -37,6 +37,10 @@ font-size: 60%;
     width: 100% !important;
     margin-top: 0rem;
     }
+    
+    .btn:focus{
+        box-shadow: none !important;
+    }
     @media(max-width:81.25em){    
         .header{
         position: fixed;

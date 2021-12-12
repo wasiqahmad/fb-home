@@ -23,6 +23,9 @@ body{
     box-shadow: .1rem .1rem .1rem rgb(233, 225, 225);
     width: 100% !important;
 }
+.btn:focus{
+    box-shadow: none !important;
+}
 @media(max-width:81.25em){    
     .header{
     position: fixed;
@@ -917,26 +920,6 @@ padding-bottom: 7rem;
     font-size: 90%;
     color: rgb(80, 74, 74);
     }
-    /* @media(max-width:76.875em){    
-    .sidebar-search{
-    width: 90%;
-    }
-    }
-    @media(max-width:70.625em){    
-    .sidebar-search{
-    width: 90%;
-    }
-    }
-    @media(max-width:64.375em){    
-    .sidebar-search{
-    width: 37%;
-    }
-    }
-    @media(max-width:59.375em){    
-    .sidebar-search{
-    width: 33%;
-    }
-    } */
     .setting{
     margin-left: 45%;
     /* margin-left: 9rem; */
@@ -1081,47 +1064,6 @@ margin-left: 0%;
     margin-left: 0%;   
     }
     }
-/* @media(max-width:75em){    
-    .card-line{
-    margin-top: 48%;
-    }
-    }
-@media(max-width:70em){    
-    .card-line{
-    margin-top: 50%;
-    }
-    }
-    @media(max-width:63.75em){    
-    .card-line{
-    margin-top: 52%;
-    }
-    }
-    @media(max-width:59.375em){    
-    .card-line{
-    margin-top: 54%;
-    }
-    }
-    @media(max-width:56.25em){    
-    .card-line{
-    margin-top: 49%;
-    width: 100%;
-    margin-left: 0%;   
-    }
-    }
-    @media(max-width:48.125em){    
-    .card-line{
-    margin-top: 51%;
-    width: 100%;
-    margin-left: 0%;   
-    }
-    }
-    @media(max-width:43.8em){    
-    .card-line{
-    margin-top: 53%;
-    width: 100%;
-    margin-left: 0%;   
-    }
-    } */
 .categories{
     font-size: 110%;
     margin-left: .7rem;
